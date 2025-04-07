@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JDM Legends - CommentForm</title>
+	<meta name="description" content="This page allows a user to leave a Comment">
+	<meta name="author" content="Simon Sullivan">
+	<meta name="robots" content="index">
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body style="padding-top: 70px">
+  	<!-- body code goes here -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">JDM Legends</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="legends.html">Legends</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="drifting.html">Drifting</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="aftermarket.html">Aftermarket</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a> </li>
+			<li class="nav-item active"> <a class="nav-link" href="comment.html">Comment</a> </li>
+          </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+  </nav> 
+<div class="container">
+  <div class="row">
+	  
+	    <section class="col-sm-12">
+		<form id="frmComment" name="frmConnect" method="post">
+			<h2>Post a Comment</h2>
+			<label for="name">
+				<span>First Name:</span> 
+				<input type="text" id="name" name="name" placeholder="Enter First Name">
+			</label>
+		<label for="surname">
+				<span>Surname:</span> 
+				<input type="text" id="surname" name="surname" placeholder="Enter Surname">
+			</label>
+			<label for="email">
+				<span>E-Mail:</span> 
+				<input type="email" id="email" name="email" placeholder="Enter your email address">
+			</label>
+			<label for="choose"><span>Topic:</span> 
+				<select id="choose">
+					<option value="">--Please choose an option</option>
+					<option value="option1">Topic 1</option>
+					<option value="option2">Topic 2</option>
+					<option value="option3">Topic 3</option>
+					<option value="option4">Topic 4</option>
+					<option value="option5">Topic 5</option>
+				</select>
+			</label>
+			
+			<label for="display">
+			<span>Display:</span> <input type="text" id="display" name="display" placeholder="The Name to display above your text">
+			</label>
+			
+			<label for="comment">
+				<span>Comment:</span> 
+				<textarea rows="4" cols="50" id="comment" name="comment"></textarea>
+			</label>
+			<input type="submit" value="Post comment" name="submit" class="button">
+			</form>
+		</section>
+	   </div>
+	  </div>
+<div class="container">
+	  <div class="row">
+		  <footer>
+			 <h2 class="contact">&nbsp; &nbsp;Contact Info</h2>
+			  <div class="footerL col-sm-12 col-lg-6">
+				  <p>&nbsp; 206 Ramstown Grove</p>
+				  <p>&nbsp; Gorey</p>
+				  <p>&nbsp; Wexford</p>
+				  <p>&nbsp; Ireland</p>
+				  <p><a href="#carouselExampleIndicators">&nbsp; Back to Top</a></p>
+			  </div>
+			  <div class="footerR col-sm-12 col-lg-6">
+				<p><a href="mailto:baec@kwetb.ie">Send Email&nbsp;&nbsp;</a></p>
+			    <p><a href="tel:015242796">Tel: 013334447&nbsp;&nbsp;</a></p>
+			    <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+			    <p class="linked"><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></p>
+				  <p>
+</p>
+				</div>
+		    </footer>  
+		</div>
+    </div>	  
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
